@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboardStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="username-display" id="username-display">
+            <i class="fas fa-user" id="icon"></i>
+            <span id="username-text"></span>
+        </div>
+    </header>
+
+    <div class="center-white-box">
+        <div class="welcome-message">
+            <h1>Bem vindo a CineBlu</h1>
+            <p>compre um ingresso em 5x prestações</p>
+            <div class="film-list">
+                <div class="film">
+                    <img src="../AVENGER.png" alt="Film 1">
+                    <div class="film-name">Film 1</div>
+                </div>
+                <div class="film">
+                    <img src="../STAR.png" alt="Film 2">
+                    <div class="film-name">Film 2</div>
+                </div>
+                <div id="film-details-card" style="display: none;">
+                    <div class="film-details" id="film-details"></div>
+                    <button id="comprar-ingresso-button">Comprar ingressos</button>
+                    <button id="close-button">X</button>
+                </div>
+            </div>
+        </div>
+
+        <footer></footer>
+        <script src="../javascript/dashboarScript.js"></script>
+</body>
+
+</html>
